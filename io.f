@@ -22,8 +22,8 @@ cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 	mg_level  = 5
 	nstep     = 1
 	nsave     = 1
-        ncont     = 1
-	maxstep   = 100000
+        ncont     = 1000
+	maxstep   = 1000
 
 	do i = 1, 5
            iterchk(i)  = 2
@@ -40,7 +40,7 @@ cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
         g           = 9.81D0
         omg_cyl     = 0
         omg_lid     = 0
-        factor      = 1.0e-3
+        factor      = 1.0e-4
         phi1        = 0
         yphi        = 0
         aphi        = 1.
